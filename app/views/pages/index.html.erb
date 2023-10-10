@@ -1,0 +1,3180 @@
+<h1>Violencia en el pololeo</h1>
+<p>Antes de comenzar, por favor dinos si estás de acuerdo con el asentimiento informado y luego apórtanos algunos de tus datos personales. Estos datos nos serviran para contactarte en las siguientes fases de este estudio.</p>
+<br>
+<form action="/create" method="get">
+Estoy de acuerdo con el asentimiento informado y participaré del estudio.<br>
+<input list="opcionesasen" name="asen">
+<datalist id="opcionesasen">
+  <option value="Si">
+  <option value="No">
+</datalist>
+<br>
+<br>¿Cuál es tu nombre y apellidos?<br>
+<input type="text" name="nom">
+<br>¿Cuál es tu edad?<br>
+<input type="integer" name="ed">
+<br>¿Cuál es tu teléfono de contacto?<br>
+<input type="integer" name="tel">
+<br>¿Cuál es tu email?<br>
+<input type="text" name="em">
+<br>¿Cuál es tu colegio o liceo?<br>
+<input type="text" name="col">
+<br>
+¿En qué curso vas?<br>
+<input list="opcionescurso" name="cur">
+<datalist id="opcionescurso">
+  <option value="5to básico">
+  <option value="6to básico">
+  <option value="7mo básico">
+  <option value="8o básico">
+  <option value="1o medio">
+  <option value="2o medio">
+  <option value="3o medio">
+  <option value="4o medio">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿En qué comuna vives?<br>
+<input type="text" name="comu">
+<br>¿En qué región vives?<br>
+<input type="text" name="regi">
+<br>¿Cuál es tu sexo? (Como aparece en tu acta de nacimiento)<br>
+<input type="text" name="sex">
+<br>¿Cuál es la palabra que mejor representa tu identidad de género?<br>
+<input list="opcionesgene" name="gene">
+<datalist id="opcionesgene">
+  <option value="Femenino">
+  <option value="Masculino">
+  <option value="Trans-masculino">
+  <option value="Trans-femenino">
+  <option value="Género fluido">
+  <option value="No binarie">
+  <option value="Otro">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Cuál es tu orientación sexual?<br>
+<input list="opcionesori" name="ori">
+<datalist id="opcionesori">
+  <option value="Heterosexual">
+  <option value="Homosexual">
+  <option value="Bisexual">
+  <option value="Asexual">
+  <option value="No estoy segure">
+  <option value="Otro">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Perteneces a algún pueblo originario?<br>
+<input list="opcionespue" name="pue">
+<datalist id="opcionespue">
+  <option value="Si">
+  <option value="No">
+</datalist>
+<br>¿A qué pueblo originario perteneces?<br>
+<input list="opcionesori2" name="pueori">
+<datalist id="opcionesori2">
+  <option value="Mapuche">
+  <option value="Aimara">
+  <option value="Rapanui">
+  <option value="Asexual">
+  <option value="No pertenezco a un pueblo originario">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Cuál es tu nacionalidad?<br>
+<input list="opcionesnaci" name="naci">
+<datalist id="opcionesnaci">
+  <option value="Chilena">
+  <option value="Venezolana">
+  <option value="Colombiana">
+  <option value="Haitiana">
+  <option value="Peruana">
+  <option value="Española">
+  <option value="Otro">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Tienes alguna creencia religiosa?<br>
+<input list="opcionesreli" name="reli">
+<datalist id="opcionesreli">
+  <option value="Católica">
+  <option value="Judaismo">
+  <option value="Budismo">
+  <option value="Otra">
+  <option value="Ninguna">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Has andado o pololeado alguna vez?<br>
+<input list="opcionespol" name="pol">
+<datalist id="opcionespol">
+  <option value="Si">
+  <option value="No">
+</datalist>
+<br>¿Estás andando o pololeando actualmente?<br>
+<input list="opcionespola" name="pola">
+<datalist id="opcionespola">
+  <option value="Si">
+  <option value="No">
+</datalist>
+<br>¿Cuantas veces has pololeado? (Si no has pololeado nunca, coloca el número 0)<br>
+<input type="integer" name="cuan">
+<br>¿Cuanto tiempo duró la relación más larga que has tenido? (Responde en número de meses. ej. si duró un año, deberías responder 12 meses)<br>
+<input type="text" name="cuon">
+<br>¿En alguna de tus relaciones te has sentido maltratado/a?<br>
+<input list="opcionesmal" name="mal">
+<datalist id="opcionesmal">
+  <option value="Si">
+  <option value="No">
+</datalist>
+<br>Si te sentiste maltratado/a. ¿Eso fue en tu...?<br>
+<input list="opcionesmalt" name="malt">
+<datalist id="opcionesmalt">
+  <option value="Primera relación">
+  <option value="Segunda relación">
+  <option value="Tercera relación">
+  <option value="Cuarta relación">
+  <option value="Quinta relación">
+  <option value="Otra">
+  <option value="Nunca he pololeado">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Hace cuánto tiempo fue esa relación? (Responde en número de meses. Si fue hace un año, deberías responder 12 meses)<br>
+<input type="text" name="hac">
+<br>¿Cuánto tiempo duró esa relación donde te sentiste maltratado/a? (Responde en número de meses. Si duró un año, deberías responder 12 meses)<br>
+<input type="text" name="dur">
+<br>¿Cuál era el género de tu pareja correspondiente a la relación en la que te sentiste maltratado/a?<br>
+<input list="opcionesgene" name="pare">
+<datalist id="opcionesgene">
+  <option value="Femenino">
+  <option value="Masculino">
+  <option value="Trans-masculino">
+  <option value="Trans-femenino">
+  <option value="Género fluido">
+  <option value="No binarie">
+  <option value="Otro">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Te has sentido maltratado/a en más de una relación?<br>
+<input list="opcionesmal" name="masde">
+<datalist id="opcionesmal">
+  <option value="Si">
+  <option value="No">
+</datalist>
+<br>¿En cuántas relaciones de pololeo te has sentido maltratado/a?<br>
+<input type="text" name="cuant">
+<br>¿Qué te motivó a participar de este estudio?<br>
+<input type="text" name="mot">
+<br>
+<br>
+A continuación encontrarás una serie de conductas que pueden suceder en el pololeo. Te pedimos que respondas según tu opinión en cuanto a su nivel de Gravedad (¿Que tan grave es?), Frecuencia (¿Qué tan frecuente es?) y Tolerancia (¿Qué tan tolerable es para continuar la relación de pololeo o terminarla?).
+<br>Responde según la escala de 0 a 4 como se indica. Si cometes un error, puedes borrar tu respuesta y volver a elegir.<br>
+<br>
+<br>1.	Amenazar con suicidarse si termina la relación.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav1" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec1" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol1" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>2.	Amenazar con hacerse daño a si mismo si termina la relación.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav2" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec2" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol2" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>3.	Amenazar con golpear al polol@ si dice que quiere terminar la relación.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav3" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec3" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol3" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>4.	Amenazar con matar al polol@ si él/ ella le dice que quiere terminar con la relación.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav4" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec4" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol4" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>5.	Faltarle el respeto al polol@ cuando se está sol@ con él/ ella.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav5" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec5" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol5" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>6.	Humillar al polol@ frente a otras personas.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav6" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec6" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol6" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>7.	Avergonzar al polol@ frente a otras personas.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav7" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec7" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol7" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>8.	Mandonear al polol@ frente a otras personas.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav8" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec8" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol8" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>9.	Culpar al polol@ de los conflictos que existen entre ambos.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav9" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec9" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol9" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>10.	Culpar al polol@ de los problemas que existen en la relación.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav10" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec10" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol10" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>11. Obligar al polol@a hacer cosas que no quiere.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav11" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec11" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol11" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>12. Preguntar al polol@ de forma constante donde está.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav12" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec12" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol12" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>13. Pedirle de forma constante al polol@ fotos de con quien está.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav13" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec13" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol13" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>14. Enojarse con el polol@ si se junta con otras personas.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav14" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec14" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol14" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>15. Enojarse con el polol@ si él/ ella sale sol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav15" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec15" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol15" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>16. Prohibirle al polol@ tener nuevas amistades.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav16" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec16" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol16" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>17. Presionar al polol@ a a dejar sus propios intereses para estar tiempo con uno.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav17" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec17" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol17" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>18. Criticar la forma de vestir del polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav18" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec18" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol18" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>19. Pedirle al/ el polol@ que se cambie de ropa porque es provocativa.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav19" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec19" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol19" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>20. Burlarse del/ la polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav20" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec20" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol20" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>21. Insultar al/ el polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav21" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec21" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol21" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>22. Ponerle un sobrenombre (apodo) descalificativo a/ el polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav22" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec22" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol22" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>23. Gritarle al/ la polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav23" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec23" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol23" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>24. Hacerle bromas pesadas a el/ la polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav24" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec24" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol24" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>25. Hacerle críticas destructivas al/ el polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav25" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec25" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol25" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>26. Golpear al/ el polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav26" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec26" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol26" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>27. Lanzarle objetos al/ el polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav27" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec27" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol27" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>28. Golpear objetos cerca del/ la polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav28" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec28" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol28" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>29. Lanzar objetos cerca del/ la polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav29" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec29" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol29" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>30. Romper objetos del/ la polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav30" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec30" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol30" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>31. Empujar al/ el polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav31" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec31" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol31" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>32. Cachetear al/ la polol@ en la cara.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav32" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec32" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol32" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>33. Sacudir bruscamente (zamarrear) al/ el polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav33" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec33" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol33" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>34. Amenazar con terminar la relación, por no querer tener relaciones sexuales con el/ la polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav34" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec34" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol34" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>35. Forzar al/ la polol@ a tener relaciones sexuales.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav35" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec35" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol35" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>36. Forzar al/ la polol@ a hacer cosas que no quiere hacer en la relación sexual.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav36" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec36" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol36" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>37. No tomar en cuenta los sentimientos del/ la polol@ en cuanto a tener relaciones sexuales.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav37" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec37" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol37" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>38. Tratar al/ la polol@ como objeto sexual.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav38" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec38" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol38" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>39. Obligar al/ el polol@ a sacarse la ropa cuando no quiere.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav39" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec39" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol39" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>40. Obligar el/ la polol@ a enviar fotos desnudas.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav40" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec40" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol40" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>41. Enviar fotos desnudas al/ la polol@ cuando no quiere.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav41" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec41" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol41" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>42. Insistir en tocaciones cuando el/ la polol@ no quiere.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav42" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec42" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol42" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>43. Esconderle al/ la polol@ que no se está utilizando un método anticonceptivo.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav43" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec43" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol43" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>44. Insultar al/ la polol@ a través de las redes sociales por chat privado.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav44" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec44" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol44" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>45. Insultar al/ la polol@ a través de las redes sociales con comentarios públicos.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav45" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec45" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol45" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>46. Compartir fotos del/ la polol@ en redes sociales sin su permiso.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav46" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec46" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol46" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>47. Compartir contenido de la relación en las redes sociales, sin el consentimiento del/ la polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav47" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec47" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol47" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>48. Revisar el celular del/ la polol@.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav48" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec48" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol48" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>49. Revisar las redes sociales del/ la polol@ sin su permiso.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav49" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec49" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol49" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>50. Funar al/ la polol@ por redes sociales.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav50" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec50" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol50" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>51. Presionar al/ la polol@ para enviar “el pack”.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav51" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec51" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol51" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>52. Obligar al/ la polol@ a dar las claves de sus redes sociales.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav52" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec52" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol52" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>53. Revisar los tiempos de conexión que tiene el/ la polol@ en redes sociales.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav53" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec53" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol53" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>54. Seguir la ubicación del/ la polol@ a través de alguna aplicación.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav54" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec54" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol54" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>55. Tomar pertenencias del/ la polol@ sin su autorización.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav55" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec55" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol55" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>56. Presionar al/ la polol@ para que le preste o dé dinero.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav56" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec56" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol56" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>
+<br>57. Tomar pertenencias de la familia del/ la polol@ sin su autorización.
+<br>¿Qué tan grave es?<br>
+<input list="opcionesg" name="grav57" class="form-select">
+<datalist id="opcionesg">
+  <option value="1. Nada grave">
+  <option value="2. Poco grave">
+  <option value="3. Moderadamente grave">
+  <option value="4. Grave">
+  <option value="5. Muy grave">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan frecuente es?<br>
+<input list="opcionesf" name="frec57" class="form-select">
+<datalist id="opcionesf">
+  <option value="1. Nunca">
+  <option value="2. Raramente">
+  <option value="3. A veces">
+  <option value="4. Frecuentemente">
+  <option value="5. Siempre">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>¿Qué tan tolerable es?<br>
+<input list="opcionest" name="tol57" class="form-select">
+<datalist id="opcionest">
+  <option value="1. Intolerable, se termina el pololeo">
+  <option value="2. Poco tolerable">
+  <option value="3. Medio tolerable">
+  <option value="4. Tolerable">
+  <option value="5. Muy tolerable">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<h1>Cuestionario de Relación Sana</h1>
+A continuación encontrarás una serie de afirmaciones que pueden suceder en el pololeo. Te pedimos que respondas según tu opinión, en cuanto estás de acuerdo con la afirmación.
+<br>Responde según la escala de 1 a 5 como se indica. Si cometes un error, puedes borrar tu respuesta y volver a elegir.<br>
+<br>
+<br>
+<br>1. Valorar al/ la polol@ tal cual es.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu1" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>2.	Respetar las decisiones del/ la polol@.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu2" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>3.	Tener límites claros en la relación.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu3" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>4.	Respeto por el espacio personal del otro.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu4" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>5.	Respeto por los tiempos del otro.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu5" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>6.	Respeto por la libertad del otro.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu6" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>7.	Que la relación fomente/ apoye el desarrollo personal.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu7" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>8.	Que el polol@ apoye en los gustos personales.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu8" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>9.	Que la relación favorezca la independencia de ambos.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu9" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>10.	Permitirle al/ la polol@   tener nuevas amistades.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu10" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>11.	Permitirle al/ la polol@  salir a lugares nuevos sin uno.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu11" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>12.	Que en la relación exista confianza del uno en el otro.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu12" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>13.	Respetar las redes sociales del/ la polol@.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu13" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>14.	Respetar los límites en la sexualidad del/ la polol@.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu14" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>15.	Recibir un trato amoroso.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu15" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>16.	Que exista un cuidado por la relación.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu16" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>17.	Protegerse el uno al otro 
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu17" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>18.	Ser conscientes de como las cosas puedan afectar al otro.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu18" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>19.	Conversar con el otro sobre la relación.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu19" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>20.	Lograr acuerdos con el otro.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu20" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>21.	Que exista compromiso por la relación.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu21" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>22.	Que se proteja de la dependencia emocional.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu22" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>23.	Que haya responsabilidad afectiva.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu23" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>24.	Que haya un buen trato.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu24" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>25.	Que haya amor.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu25" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>26.	Que exista atracción entre ambos.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu26" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>27.	Sentirse agradecido por la relación.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu27" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>28.	Lograr una buena comunicación.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu28" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>29.	Lograr escucharse el uno al otro.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu29" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>30.	Asumir cada uno la responsabilidad en las acciones que se cometen en la relación.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu30" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>31.	Querer permanecer en la relación.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="acu31" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<h1>Clima Familiar</h1>
+A continuación te presentaremos una serie de afirmaciones sobre tu vida familiar, responde según tu experiencia, con la siguiente escala:<br>
+1 – Siempre. 2 – Casi siempre. 3 – A veces. 4 – Casi nunca. 5 – Nunca.<br>
+De antemano agradecemos mucho tu participación, recuerda responder todas las escalas por cada ítem y no cierres la página hasta terminar.
+<br>
+<br>
+<br>1. Mis progenitores tienen una relación conflictiva.
+<br>¿Qué tan de frecuente ocurre?<br>
+<input list="opcionescli" name="cli1" class="form-select">
+<datalist id="opcionescli">
+  <option value="1. Siempre">
+  <option value="2. Casi siempre">
+  <option value="3. A veces">
+  <option value="4. Casi nunca">
+  <option value="5. Nunca">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>2. En mi casa es común escuchar a mi padre dirigirse groseramente a mi madre.
+<br>¿Qué tan de frecuente ocurre?<br>
+<input list="opcionescli" name="cli2" class="form-select">
+<datalist id="opcionescli">
+  <option value="1. Siempre">
+  <option value="2. Casi siempre">
+  <option value="3. A veces">
+  <option value="4. Casi nunca">
+  <option value="5. Nunca">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>3. En mi casa es común escuchar a mi madre dirigirse groseramente a mi padre.
+<br>¿Qué tan de frecuente ocurre?<br>
+<input list="opcionescli" name="cli3" class="form-select">
+<datalist id="opcionescli">
+  <option value="1. Siempre">
+  <option value="2. Casi siempre">
+  <option value="3. A veces">
+  <option value="4. Casi nunca">
+  <option value="5. Nunca">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<h1>Apoyo Social</h1>
+<br>Por favor, lea cada una de las siguientes afirmaciones cuidadosamente. Puede elegir una respuesta entre el 1 (totalmente en desacuerdo) y el 7 (totalmente de acuerdo) para señalar el grado en que cada afirmación es verdadera para usted en este momento de su vida.
+<br>De antemano agradecemos mucho tu participación, recuerda responder todas las escalas por cada ítem y no cierres la página hasta terminar.<br>
+<br>1.- Existe una persona especial que está cerca de mí cuando la necesito.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer1" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>2.- Existe una persona especial con la que puedo compartir alegrías y tristezas.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer2" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>3.- Mi familia trata realmente de ayudarme.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer3" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>4.- Tengo la ayuda y el apoyo emocional que necesito de mi familia.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer4" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>5.- Tengo una persona especial que es una fuente real de consuelo para mí.	
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer5" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>6.- Mis amigos tratan realmente de ayudarme.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer6" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>7.- Puedo contar con mis amigos cuando las cosas van mal.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer7" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>8.- Puedo hablar de mis problemas con mi familia.	
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer8" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>9.- Tengo amigos con los cuales compartir mis alegrías y mis penas.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer9" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>10.- Hay una persona especial en mi vida que se preocupa de mis sentimientos.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer10" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>11.- Mi familia está dispuesta a ayudarme a tomar decisiones.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer11" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>12.- Puedo hablar de mis problemas con mis amigos.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="acuer12" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<h1>Satisfacción con la vida</h1>
+<br>A continuación te pedimos que respondas el siguiente cuestionario según tu grado de Acuerdo/Desacuerdo según se expone en la escala que acompaña cada ítem.
+De antemano agradecemos mucho tu participación, recuerda responder todas las escalas por cada ítem y no cierres la página hasta terminar.<br>
+<br>
+<br>1.- Mi vida es parecida a la vida que me gustaría tener.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="sat1" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>2.- Mi vida es buena.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="sat2" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>3.- Estoy contento con mi vida.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="sat3" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>4.- He logrado las cosas importantes que he querido en mi vida.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="sat4" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<br>5.- Si pudiera volver a vivir mi vida, la viviría de forma muy parecida.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacu" name="sat5" class="form-select">
+<datalist id="opcionesacu">
+  <option value="1. Muy en desacuerdo">
+  <option value="2. Algo en desacuerdo">
+  <option value="3. Ni de acuerdo ni en desacuerdo">
+  <option value="4. Algo de acuerdo">
+  <option value="5. Muy de acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<h1>Necesidades psicológicas básicas</h1>
+<br>Por favor, lea cada una de las siguientes afirmaciones cuidadosamente. Puede elegir una respuesta entre el 1 (totalmente en desacuerdo) y el 7 (totalmente de acuerdo) para señalar el grado en que cada afirmación es verdadera para usted en este momento de su vida.
+De antemano agradecemos mucho tu participación, recuerda responder todas las escalas por cada ítem y no cierres la página hasta terminar.<br>
+<br>1.- Siento que tengo la libertad y la posibilidad de elegir las cosas que asumo.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb1" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>2.- Siento que la mayoría de las cosas que hago, las hago porque “tengo que hacerlas”.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb2" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>3.- Siento que les importo a las personas que me importan.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb3" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>4.- Me siento excluido del grupo al que quiero pertenecer.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb4" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>5.- Siento que puedo hacer las cosas bien.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb5" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>6.- Tengo serias dudas acerca de si puedo hacer las cosas bien.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb6" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>7.- Siento que mis decisiones reflejan lo que realmente quiero.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb7" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>8.- Me siento forzado(a) a hacer muchas cosas que yo no elegiría hacer.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb8" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>9.- Me siento conectado(a) con las personas que se preocupan por mí y por las cuales yo me preocupo.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb9" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>10.- Siento que las personas que son importantes para mí, son frías y distantes conmigo.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb10" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>11.- Me siento capaz en lo que hago.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb11" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>12.- Me siento decepcionado(a) con muchas de mis actuaciones.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb12" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>13.- Siento que mis elecciones expresan realmente quien soy.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb13" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>14.- Me siento presionado(a) a hacer muchas cosas.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb14" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>15.- Me siento cerca y conectado(a) con otras personas que son importantes para mí.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb15" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>16.- Tengo la impresión de que le disgusto a la gente con la que paso tiempo.	
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb16" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>17.- Siento que soy capaz de alcanzar mis metas.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb17" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>18.- Me siento inseguro(a) de mis habilidades.	
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb18" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>19.- Siento que he estado haciendo lo que realmente me interesa.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb19" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>20.- Mis actividades diarias se sienten como una cadena de obligaciones.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb20" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>21.- Experimento una sensación de calidez cuando estoy con las personas con las que paso tiempo.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb21" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>22.- Siento que las relaciones interpersonales que tengo son superficiales.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb22" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>23.- Siento que puedo cumplir con éxito tareas difíciles.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb23" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>24.- Me siento como un(a) fracasado(a) por los errores que cometo.
+<br>¿Qué tan de acuerdo estás?<br>
+<input list="opcionesacuer" name="psb24" class="form-select">
+<datalist id="opcionesacuer">
+  <option value="1. Total desacuerdo">
+  <option value="2. Bastante en desacuerdo">
+  <option value="3. En desacuerdo">
+  <option value="4. Ni de acuerdo ni en desacuerdo">
+  <option value="5. De acuerdo">
+  <option value="6. Bastante de acuerdo">
+  <option value="7. Total acuerdo">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>
+<h1>Cuestionario PHQ9</h1>
+<br>¿Con qué frecuencia te han incomodado alguno de los siguientes síntomas durante las últimas dos semanas? Marca la opción que mejor describe cómo te has sentido.
+De antemano agradecemos mucho tu participación, recuerda responder todas las escalas por cada ítem y no cierres la página hasta terminar.<br>
+<br>1.- ¿Te has sentido bajonead@ deprimid@, irritable o desesperanzad@?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesph" name="ph1" class="form-select">
+<datalist id="opcionesph">
+  <option value="1. Nunca">
+  <option value="2. Algunos días">
+  <option value="3. Más de la mitad de los días">
+  <option value="4. Casi todos los días">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>2.- ¿Has sentido poco interés o placer al hacer las cosas?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesph" name="ph2" class="form-select">
+<datalist id="opcionesph">
+  <option value="1. Nunca">
+  <option value="2. Algunos días">
+  <option value="3. Más de la mitad de los días">
+  <option value="4. Casi todos los días">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>3.- ¿Has sentido problemas para quedarte dormid@, permanecer dormid@, o has estado durmiendo demasiado?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesph" name="ph3" class="form-select">
+<datalist id="opcionesph">
+  <option value="1. Nunca">
+  <option value="2. Algunos días">
+  <option value="3. Más de la mitad de los días">
+  <option value="4. Casi todos los días">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>4.- ¿Te has sentido cansado/a o con poca energía?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesph" name="ph4" class="form-select">
+<datalist id="opcionesph">
+  <option value="1. Nunca">
+  <option value="2. Algunos días">
+  <option value="3. Más de la mitad de los días">
+  <option value="4. Casi todos los días">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>5.- ¿Has tenido poco apetito, has bajado de peso, o has comido excesivamente?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesph" name="ph5" class="form-select">
+<datalist id="opcionesph">
+  <option value="1. Nunca">
+  <option value="2. Algunos días">
+  <option value="3. Más de la mitad de los días">
+  <option value="4. Casi todos los días">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>6.- ¿Te has sentido mal respecto a ti mism@ o has sentido que eres un/una fracasad@, o que has decepcionado a tu familia o a ti mism@?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesph" name="ph6" class="form-select">
+<datalist id="opcionesph">
+  <option value="1. Nunca">
+  <option value="2. Algunos días">
+  <option value="3. Más de la mitad de los días">
+  <option value="4. Casi todos los días">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>7.- ¿Has tenido problemas para concentrarte en actividades como trabajos escolares, leer o ver televisión?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesph" name="ph7" class="form-select">
+<datalist id="opcionesph">
+  <option value="1. Nunca">
+  <option value="2. Algunos días">
+  <option value="3. Más de la mitad de los días">
+  <option value="4. Casi todos los días">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>8.- ¿Te has movido a hablado tan lento que las otras personas podrían haberlo notado? o al contrario ¿Has estado tan inquiet@ que estabas moviéndote de un lado a otro mucho más de lo usual?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesph" name="ph8" class="form-select">
+<datalist id="opcionesph">
+  <option value="1. Nunca">
+  <option value="2. Algunos días">
+  <option value="3. Más de la mitad de los días">
+  <option value="4. Casi todos los días">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>9.- ¿Has pensado que sería mejor estar muert@ o has pensado hacerte daño de alguna manera?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesph" name="ph9" class="form-select">
+<datalist id="opcionesph">
+  <option value="1. Nunca">
+  <option value="2. Algunos días">
+  <option value="3. Más de la mitad de los días">
+  <option value="4. Casi todos los días">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>10.- En el último año ¿Te has sentido deprimido o triste la mayoría de los días, aunque te sientas a veces bien?
+<br><input list="opcionesasen" name="ph10">
+<datalist id="opcionesasen">
+  <option value="Si">
+  <option value="No">
+</datalist><br>
+<br>11.- Si has estado experimentando alguno de los problemas de este cuestionario, ¿Cuánto hacen esos problemas que se te dificulte hacer tu trabajo, tus labores en la casa, o llevarte bien con los demás?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesph11" name="ph11" class="form-select">
+<datalist id="opcionesph11">
+  <option value="1. Ninguna dificultad">
+  <option value="2. Algo de dificultad">
+  <option value="3. Bastante dificultad">
+  <option value="4. Extrema dificultad">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>12.- Durante el último mes ¿Has pensado en algún minuto seriamente en terminar con tu vida?
+<br><input list="opcionesasen" name="ph12">
+<datalist id="opcionesasen">
+  <option value="Si">
+  <option value="No">
+</datalist><br>
+<br>13.- Alguna vez en tu vida ¿Has tratado de matarte o has hecho un intento de suicidio?
+<br><input list="opcionesasen" name="ph13">
+<datalist id="opcionesasen">
+  <option value="Si">
+  <option value="No">
+</datalist><br>
+<br>
+<h1>Cuestionario OKASHA</h1>
+<br>Por favor selecciona la opción que mejor te represente.
+De antemano agradecemos mucho tu participación, recuerda responder todas las escalas por cada ítem y no cierres la página hasta terminar.<br>
+<br>1.- ¿Has pensado alguna vez que la vida no vale la pena?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesok1" name="ok1" class="form-select">
+<datalist id="opcionesok1">
+  <option value="1. Nunca">
+  <option value="2. Casi nunca">
+  <option value="3. Algunas veces">
+  <option value="4. Muchas veces">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>2.- ¿Has deseado alguna vez estar muerto?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesok1" name="ok2" class="form-select">
+<datalist id="opcionesok1">
+  <option value="1. Nunca">
+  <option value="2. Casi nunca">
+  <option value="3. Algunas veces">
+  <option value="4. Muchas veces">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>3.- ¿Has pensado alguna vez terminar con tu vida?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesok1" name="ok3" class="form-select">
+<datalist id="opcionesok1">
+  <option value="1. Nunca">
+  <option value="2. Casi nunca">
+  <option value="3. Algunas veces">
+  <option value="4. Muchas veces">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br>4.- ¿Has intentado suicidarte?
+<br>¿Qué opción te describe mejor?<br>
+<input list="opcionesok2" name="ok4" class="form-select">
+<datalist id="opcionesok2">
+  <option value="1. Ningún intento">
+  <option value="2. Un intento">
+  <option value="3. Dos intentos">
+  <option value="4. Tres o más intentos">
+  <!-- Agrega más opciones según sea necesario -->
+</datalist>
+<br><br><br>
+<h2>Si has tenido pensamientos de que sería mejor estar muert@ o has pensado en hacerte daño de alguna manera, por favor convérsalo y busca ayuda en algún profesional de tu confianza.</h2>
+Muchas gracias por tu valiosa ayuda.
+
+
+
+
+<br><br>
+<input type="submit" value="registrar">
+</form>
+
