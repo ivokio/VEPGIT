@@ -6,6 +6,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   root "pages#index"
   get "/create", to: "pages#create"
-  get "/dashboard", to: "pages#dashboard"
+  # get "/dashboard", to: "pages#dashboard"
 
 end
